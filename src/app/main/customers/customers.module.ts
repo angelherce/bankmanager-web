@@ -4,10 +4,11 @@ import { OntimizeWebModule } from 'ontimize-web-ngx';
 import { CustomersRoutingModule } from './customers-routing.module';
 import { CustomersHomeComponent } from './customers-home/customers-home.component';
 import { CustomersDetailComponent } from './customers-detail/customers-detail.component';
+import { CustomersNewComponent } from './customers-new/customers-new.component';
 
 
 @NgModule({
-  declarations: [CustomersHomeComponent, CustomersDetailComponent],
+  declarations: [CustomersHomeComponent, CustomersDetailComponent, CustomersNewComponent],
   imports: [
     CommonModule,
     OntimizeWebModule,
