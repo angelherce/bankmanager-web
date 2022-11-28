@@ -24,18 +24,19 @@
               "src/assets",
               {
                 "glob": "**/*",
-                "input": "node_modules/ontimize-web-ngx/assets",
+                "input": "node_modules/leaflet/dist/images",
                 "output": "/assets"
               },
               {
                 "glob": "**/*",
-                "input": "node_modules/ngx-extended-pdf-viewer/assets",
+                "input": "node_modules/ontimize-web-ngx/assets",
                 "output": "/assets"
               },
               "src/manifest.webmanifest"
             ],
             "styles": [
               "node_modules/ontimize-web-ngx-charts/styles.scss",
+              "node_modules/ontimize-web-ngx-map/styles.scss",
               "node_modules/ontimize-web-ngx/ontimize.scss",
               "src/assets/css/app.scss",
               "src/styles.scss"
