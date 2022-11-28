@@ -8,6 +8,7 @@ import { SharedModule } from 'src/app/shared/shared.module';
 import { AccountsNewComponent } from './accounts-new/accounts-new.component';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
 import { AddMovementComponent } from './add-movement/add-movement.component';
+import { OChartModule } from 'ontimize-web-ngx-charts';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AddMovementComponent } from './add-movement/add-movement.component';
     CommonModule,
     SharedModule,
     OntimizeWebModule,
-    AccountsRoutingModule
+    AccountsRoutingModule,
+    OChartModule
   ]
 })
 export class AccountsModule { }
