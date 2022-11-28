@@ -40,8 +40,8 @@
       <mat-tab label="{{ 'ACCOUNTS' | oTranslate }}">
         <div fxFlex>
           <o-table #accountCustomerTable attr="accountsTable" service="customers" entity="vCustomerAccount"
-            select-all-checkbox="yes" keys="ACCOUNTID" insert-button="no" refresh-button="no" detail-mode="dblclick"
-            delete-button="no" query-rows="20" parent-keys="CUSTOMERID"
+            keys="ACCOUNTID" insert-button="no" refresh-button="no" detail-mode="none" delete-button="no"
+            query-rows="20" parent-keys="CUSTOMERID"
             columns="CUSTOMERID;ACCOUNTID;ENTITYID;OFFICEID;CDID;ANID;STARTDATE;ENDDATE;INTERESRATE;ACCOUNTTYP"
             visible-columns="ACCOUNTNUMBER;STARTDATE;ENDDATE;INTERESRATE;INTERESRATE_MONTHLY;ACCOUNTTYP">
             <o-table-column attr="STARTDATE" title="STARTDATE" type="date" format="LL"></o-table-column>
@@ -59,6 +59,7 @@
           </o-table>
         </div>
         <o-button (click)="openAccountDetailSelected()" label="{{ 'OPEN_ACCOUNT_SELECTED' | oTranslate }}"></o-button>
+        <o-button (click)="createNewAccount()" label="{{ 'CREATE_NEW_ACCOUNT' | oTranslate }}"></o-button>
       </mat-tab>
     </mat-tab-group>
   </o-row>

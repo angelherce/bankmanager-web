@@ -91,5 +91,6 @@
   "OTHERS": "Otros",
   "BASIC": "Básico",
   "ACCOUNTS_UNDER": "Cuentas inferiores a",
-  "OPEN_ACCOUNT_SELECTED": "Abrir cuenta seleccionada"
+  "OPEN_ACCOUNT_SELECTED": "Abrir cuenta seleccionada",
+  "CREATE_NEW_ACCOUNT": "Crear una nueva cuenta"
 }
