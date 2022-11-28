@@ -6,10 +6,11 @@ import { AccountsHomeComponent } from './accounts-home/accounts-home.component';
 import { AccountsDetailComponent } from './accounts-detail/accounts-detail.component';
 import { SharedModule } from 'src/app/shared/shared.module';
 import { AccountsNewComponent } from './accounts-new/accounts-new.component';
+import { AddCustomerComponent } from './add-customer/add-customer.component';
 
 
 @NgModule({
-  declarations: [AccountsHomeComponent, AccountsDetailComponent, AccountsNewComponent],
+  declarations: [AccountsHomeComponent, AccountsDetailComponent, AccountsNewComponent, AddCustomerComponent],
   imports: [
     CommonModule,
     SharedModule,
