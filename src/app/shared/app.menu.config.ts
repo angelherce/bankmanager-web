@@ -1,4 +1,9 @@
 import { MenuRootItem } from 'ontimize-web-ngx';
+import { CustomerCardComponent } from "./customer-card/customer-card.component";
+import { EmployeeCardComponent } from './employee-card/employee-card.component';
+import { BranchCardComponent } from './branch-card/branch-card.component';
+import { AccountCardComponent } from './account-card/account-card.component';
+import { ServiceExCardComponent } from "./service-ex-card/service-ex-card.component";
 
 export const MENU_CONFIG: MenuRootItem[] = [
   { id: 'home', name: 'HOME', icon: 'home', route: '/main/home' },
@@ -13,4 +18,12 @@ export const MENU_CONFIG: MenuRootItem[] = [
     ]
   },
   { id: 'logout', name: 'LOGOUT', route: '/login', icon: 'power_settings_new', confirm: 'yes' }
+];
+
+export const MENU_COMPONENTS = [
+  CustomerCardComponent,
+  EmployeeCardComponent,
+  BranchCardComponent,
+  AccountCardComponent,
+  ServiceExCardComponent
 ];
