@@ -89,5 +89,6 @@
   "NORMAL": "Normal",
   "OTHERS": "Others",
   "BASIC": "Basic",
-  "ACCOUNTS_UNDER": "Accounts under"
+  "ACCOUNTS_UNDER": "Accounts under",
+  "OPEN_ACCOUNT_SELECTED": "Open Account Selected"
 }

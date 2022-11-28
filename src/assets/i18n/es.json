@@ -90,5 +90,6 @@
   "NORMAL": "Normal",
   "OTHERS": "Otros",
   "BASIC": "Básico",
-  "ACCOUNTS_UNDER": "Cuentas inferiores a"
+  "ACCOUNTS_UNDER": "Cuentas inferiores a",
+  "OPEN_ACCOUNT_SELECTED": "Abrir cuenta seleccionada"
 }
