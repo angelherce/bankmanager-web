@@ -7,10 +7,11 @@ import { AccountsDetailComponent } from './accounts-detail/accounts-detail.compo
 import { SharedModule } from 'src/app/shared/shared.module';
 import { AccountsNewComponent } from './accounts-new/accounts-new.component';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
+import { AddMovementComponent } from './add-movement/add-movement.component';
 
 
 @NgModule({
-  declarations: [AccountsHomeComponent, AccountsDetailComponent, AccountsNewComponent, AddCustomerComponent],
+  declarations: [AccountsHomeComponent, AccountsDetailComponent, AccountsNewComponent, AddCustomerComponent, AddMovementComponent],
   imports: [
     CommonModule,
     SharedModule,

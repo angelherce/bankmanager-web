@@ -4,6 +4,7 @@ import { AccountsHomeComponent } from './accounts-home/accounts-home.component';
 import { AccountsDetailComponent } from './accounts-detail/accounts-detail.component';
 import { AccountsNewComponent } from './accounts-new/accounts-new.component';
 import { AddCustomerComponent } from './add-customer/add-customer.component';
+import { AddMovementComponent } from './add-movement/add-movement.component';
 
 const routes: Routes = [{
   path:'',
@@ -20,7 +21,11 @@ const routes: Routes = [{
 {
   path:':ACCOUNTID/addcustomer/new',
   component: AddCustomerComponent
-},];
+},
+{
+  path:':ACCOUNTID/addMovement/new',
+  component: AddMovementComponent
+}];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],
