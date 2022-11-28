@@ -1,6 +1,7 @@
 import { CommonModule } from '@angular/common';
 import { NgModule } from '@angular/core';
 import { OntimizeWebModule } from 'ontimize-web-ngx';
+import { MovementColumnRendererComponent } from '../main/accounts/accounts-detail/movement-column-renderer/movement-column-renderer.component';
 import { AccountNumberRenderComponent } from '../main/accounts/accounts-home/account-number-render/account-number-render.component';
 import { CustomertypeColumnRendererComponent } from '../main/customers/customers-home/customertype-column-renderer/customertype-column-renderer.component';
 
@@ -14,12 +15,14 @@ export function intRateMonthlyFunction (rowData: Array<any>): number {
   ],
   declarations: [
     AccountNumberRenderComponent,
-    CustomertypeColumnRendererComponent
+    CustomertypeColumnRendererComponent,
+    MovementColumnRendererComponent
   ],
   exports: [
     CommonModule,
     AccountNumberRenderComponent,
-    CustomertypeColumnRendererComponent
+    CustomertypeColumnRendererComponent,
+    MovementColumnRendererComponent
   ]
 })
 export class SharedModule { }
